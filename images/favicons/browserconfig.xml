@@ -2,8 +2,8 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="https://github.com/progressEdd/blog/tree/master/images/favicons/mstile-150x150.png"/>
-            <TileColor>#2b5797</TileColor>
+            <square150x150logo src="https://progressedd.github.io/blog/images/favicons/mstile-150x150.png"/>
+            <TileColor>#603cba</TileColor>
         </tile>
     </msapplication>
 </browserconfig>
