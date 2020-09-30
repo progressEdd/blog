@@ -1,5 +1,6 @@
 ---
 keywords: fastai
+description: In a lot of esports, players watch the professional players as they have both a high mechanical skill and a deep understanding of the game. 
 title: Analysis on the Pros of Overwatch
 nb_path: _notebooks/2020-02-09-overwatch-pro-analysis.ipynb
 layout: notebook

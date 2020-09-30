@@ -1,5 +1,6 @@
 ---
 keywords: fastai
+description: One of my friends approached me asking if I had any experience animating graphs, since I had experience with video editing. Though I had not had any formal experience, I decided that it would be a interesting challenge to embark.
 title: Using Matplotlib to Animate a Data From a Velocity Recording
 nb_path: _notebooks/2020-07-02-Animating-Velocity-Graph.ipynb
 layout: notebook

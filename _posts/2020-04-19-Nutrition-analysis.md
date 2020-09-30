@@ -1,5 +1,6 @@
 ---
 keywords: fastai
+description: This is a project I made to analyze the amount of protein the various animal and vegetable products people can consume. 
 title: Nutrient Density and Value Data Visualization
 nb_path: _notebooks/2020-04-19-Nutrition-analysis.ipynb
 layout: notebook
