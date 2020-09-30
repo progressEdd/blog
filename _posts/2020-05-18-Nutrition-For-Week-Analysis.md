@@ -1,5 +1,6 @@
 ---
 keywords: fastai
+description: During a conversation with one of my friends, I showed them some of my work with analyzing the protein content of various meats and vegetables. After seeing the analysis, they asked me if I would be interested in analyzing the total caloric intake for a week's worth of meals.
 title: Generating The Total Nutritional Content For a Week
 nb_path: _notebooks/2020-05-18-Nutrition-For-Week-Analysis.ipynb
 layout: notebook
