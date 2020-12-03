@@ -1,0 +1,60 @@
+*********************** Log Started 2020-11-29T06:12:41Z ***********************
+06:12:41:************************* Folding@home Client *************************
+06:12:41:        Website: https://foldingathome.org/
+06:12:41:      Copyright: (c) 2009-2018 foldingathome.org
+06:12:41:         Author: Joseph Coffland <joseph@cauldrondevelopment.com>
+06:12:41:           Args: 
+06:12:41:         Config: <none>
+06:12:41:******************************** Build ********************************
+06:12:41:        Version: 7.5.1
+06:12:41:           Date: May 12 2018
+06:12:41:           Time: 22:51:07
+06:12:41:     Repository: Git
+06:12:41:       Revision: 4705bf53c635f88b8fe85af7675557e15d491ff0
+06:12:41:         Branch: master
+06:12:41:       Compiler: GNU 4.4.7 20120313 (Red Hat 4.4.7-18)
+06:12:41:        Options: -std=gnu++98 -O3 -funroll-loops
+06:12:41:       Platform: linux2 4.14.0-3-amd64
+06:12:41:           Bits: 64
+06:12:41:           Mode: Release
+06:12:41:******************************* System ********************************
+06:12:41:            CPU: AMD Ryzen 7 2700X Eight-Core Processor
+06:12:41:         CPU ID: AuthenticAMD Family 23 Model 8 Stepping 2
+06:12:41:           CPUs: 16
+06:12:41:         Memory: 15.64GiB
+06:12:41:    Free Memory: 1.43GiB
+06:12:41:        Threads: POSIX_THREADS
+06:12:41:     OS Version: 5.9
+06:12:41:    Has Battery: false
+06:12:41:     On Battery: false
+06:12:41:     UTC Offset: -6
+06:12:41:            PID: 65811
+06:12:41:            CWD: /mnt/sda1/Documents/Python-Notebooks/personal-project/blog
+06:12:41:             OS: Linux 5.9.10-200.fc33.x86_64 x86_64
+06:12:41:        OS Arch: AMD64
+06:12:41:           GPUs: 0
+06:12:41:  CUDA Device 0: Platform:0 Device:0 Bus:38 Slot:0 Compute:7.5 Driver:11.1
+06:12:41:OpenCL Device 0: Platform:0 Device:0 Bus:38 Slot:0 Compute:1.2 Driver:455.45
+06:12:41:***********************************************************************
+06:12:41:<config>
+06:12:41:  <!-- Folding Slots -->
+06:12:41:</config>
+06:12:41:Connecting to assign1.foldingathome.org:8080
+06:12:41:Updated GPUs.txt
+06:12:41:Read GPUs.txt
+06:12:41:Trying to access database...
+06:12:41:Successfully acquired database lock
+06:12:41:Enabled folding slot 00: PAUSED cpu:14 (not configured)
+06:12:41:Enabled folding slot 01: PAUSED gpu:0:TU106 [GeForce RTX 2070] M 6497 (not configured)
+[91m06:12:41:ERROR:Exception: Could not bind socket to 0.0.0.0:7396: Address already in use[0m
+[91m06:12:41:ERROR:Exception: Could not bind socket to 0.0.0.0:36330: Address already in use[0m
+06:12:42:Caught signal SIGINT(2) on PID 65811
+06:12:42:Exiting, please wait. . .
+06:12:43:Saving configuration to config.xml
+06:12:43:<config>
+06:12:43:  <!-- Folding Slots -->
+06:12:43:  <slot id='0' type='CPU'/>
+06:12:43:  <slot id='1' type='GPU'/>
+06:12:43:</config>
+06:12:44:Set client configured
+06:12:44:Clean exit
