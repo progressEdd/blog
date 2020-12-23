@@ -31,7 +31,7 @@ layout: notebook
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Steps-To-Installing-RPiPlay">Steps To Installing RPiPlay<a class="anchor-link" href="#Steps-To-Installing-RPiPlay"> </a></h1><p>The following Fedora instructions are adapted from the <a href="https://github.com/FD-/RPiPlay#building-on-desktop-linux">github page</a> for instructions on Ubuntu, please check their page</p>
+<h1 id="Steps-To-Installing-RPiPlay">Steps To Installing RPiPlay<a class="anchor-link" href="#Steps-To-Installing-RPiPlay"> </a></h1><p>The following Fedora instructions are adapted from the <a href="https://github.com/FD-/RPiPlay#building-on-desktop-linux">github page</a>. For instructions on Ubuntu, please check their page</p>
 <h2 id="Install-all-dependencies-cmake,-libraries,-and-gstreamer">Install all dependencies cmake, libraries, and gstreamer<a class="anchor-link" href="#Install-all-dependencies-cmake,-libraries,-and-gstreamer"> </a></h2>
 <pre><code>    sudo dnf install cmake avahi-compat-libdns_sd-devel libplist-devel openssl-devel \    
     gstreamer1-plugins-base-devel gstreamer1-libav gstreamer1-vaapi \    gstreamer1-plugins-bad-free</code></pre>
