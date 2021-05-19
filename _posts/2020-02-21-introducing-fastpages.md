@@ -8,6 +8,7 @@ comments: true
 sticky_rank: 1
 author: Jeremy Howard & Hamel Husain
 image: images/diagram.png
+hide: true
 categories: [fastpages, jupyter]
 nb_path: _notebooks/2020-02-21-introducing-fastpages.ipynb
 layout: notebook
