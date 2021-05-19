@@ -196,32 +196,14 @@ h6:hover .anchor-link {
   font-weight:bold;
 }
 
-<<<<<<< HEAD
-// Handle Overflow With Table Output
-
-table {
-  display: block !important;
-  overflow-x: auto;
-  white-space: nowrap;
-  font-size: 75%;
-=======
 table {
   white-space: normal;
   max-width: 100%;
   font-size: 100%;
->>>>>>> template/master
   border:none;
   th{
     text-align: center! important;
   }
-<<<<<<< HEAD
-  td{
-    text-overflow:ellipsis;
-    overflow:hidden;
-    max-width: 15em;
-  }
-=======
->>>>>>> template/master
 }
 
 // customize scrollbars
@@ -255,28 +237,17 @@ table {
 
 
 // Handling large charts on mobile devices
-<<<<<<< HEAD
-@media only screen and (max-width: 900px) {
-  /* for mobile phone and tablet devices */
-  .output_wrapper{
-    overflow: scroll;
-  }
-}
-=======
 // @media only screen and (max-width: 1200px) {
 //   /* for mobile phone and tablet devices */
   .output_wrapper{
     overflow: auto;
   }
 // }
->>>>>>> template/master
 
 .svg-icon.orange{
   width: 30px;
   height: 23px;
 }
-<<<<<<< HEAD
-=======
 
 .code_cell {
   margin: 1.5rem 0px !important;
@@ -285,4 +256,3 @@ table {
 pre code {
   font-size: 15px !important;
 }
->>>>>>> template/master

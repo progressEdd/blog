@@ -5,11 +5,7 @@ jobs:
  check-config:
    runs-on: ubuntu-latest
    steps:
-<<<<<<< HEAD
-    - uses: actions/checkout@master
-=======
     - uses: actions/checkout@main
->>>>>>> template/master
 
     - name: Set up Python
       uses: actions/setup-python@v1
