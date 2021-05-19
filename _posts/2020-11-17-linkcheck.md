@@ -6,6 +6,7 @@ author: "<a href='https://twitter.com/jeremyphoward'>Jeremy Howard</a> and <a hr
 toc: false
 image: images/copied_from_nb/fastlinkcheck_images/fastlinkcheck.png
 comments: true
+hide: true
 categories: [nbdev, fastlinkcheck]
 permalink: /fastlinkcheck/
 badges: true
