@@ -21,11 +21,11 @@ services:
     <<: *fastpages
     command: /fastpages/action_entrypoint.sh
 
-  notebook:
-    <<: *fastpages
-    command: jupyter notebook --allow-root --no-browser --ip=0.0.0.0 --port=8080 --NotebookApp.token='' --NotebookApp.password=''
-    ports:
-      - "8080:8080"
+  #notebook:
+  #  <<: *fastpages
+  #  command: jupyter notebook --allow-root --no-browser --ip=0.0.0.0 --port=8080 --NotebookApp.token='' --NotebookApp.password=''
+  #  ports:
+  #    - "8080:8080"
 
   watcher:
     <<: *fastpages
