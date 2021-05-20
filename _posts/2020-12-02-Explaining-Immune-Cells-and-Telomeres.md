@@ -1,7 +1,8 @@
 ---
 keywords: fastai
-description: <a href='https://youtu.be/5Op_lx7rqSs) covered a recent paper about how Hyperbaric Oxygen Therapy (HBOT'>Jake Tran made a video that</a>, explained the potential to reverse aging. I noticed that Jake didn't go super in depth with the immune cells, I decided to fill the gap with my biology and anatomy knowledge I learned in university backed by some sources I found.
+description: <a href='https://youtu.be/5Op_lx7rqSs) covered a recent paper about how Hyperbaric Oxygen Therapy (HBOT'>Jake Tran made a video that</a>, with the potential to reverse aging. I noticed that Jake didn't go super in depth with the immune cells, I decided to fill the gap with my biology and anatomy knowledge I learned in university backed by some sources I found.
 title: Explaining Immune Cells and Telomeres
+comments: true
 nb_path: _notebooks/2020-12-02-Explaining-Immune-Cells-and-Telomeres.ipynb
 layout: notebook
 ---
@@ -15,13 +16,6 @@ layout: notebook
 
 <div class="container" id="notebook-container">
         
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-
-</div>
-    {% endraw %}
-
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><h1>Table of Contents<span class="tocSkip"></span></h1></p>

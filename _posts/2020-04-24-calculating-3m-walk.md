@@ -2,6 +2,7 @@
 keywords: fastai
 description: In my research with the <a href="http://danceneuroscience.kch.illinois.edu/">Neuroscience of Dance in Health and Disability Laboratory</a>, I was tasked with verifying that the recorded section of motion capture data of the participant had truely traveled 3 meters. We chose 3 meters as it is the best sampled portion of the walk for analysis and was consistent with past studies. I wrote this in hopes that this would be used in future studies so that a researcher would not need to calculate by hand when verifying and picking a section of the recording.
 title: Verifying a 3 Meter Walk
+comments: true
 nb_path: _notebooks/2020-04-24-calculating-3m-walk.ipynb
 layout: notebook
 ---
@@ -15,13 +16,6 @@ layout: notebook
 
 <div class="container" id="notebook-container">
         
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-
-</div>
-    {% endraw %}
-
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><h1>Table of Contents<span class="tocSkip"></span></h1></p>
@@ -43,8 +37,7 @@ layout: notebook
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Have the notebook full screen</span>
-<span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">display</span><span class="p">,</span> <span class="n">HTML</span>  
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">display</span><span class="p">,</span> <span class="n">HTML</span>  
 <span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="s2">&quot;&lt;style&gt;.container { width:100% !important; }&lt;/style&gt;&quot;</span><span class="p">))</span>
 </pre></div>
 

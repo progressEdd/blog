@@ -2,6 +2,7 @@
 keywords: fastai
 description: As reported by the <a href="https://nvidianews.nvidia.com/news/nvidia-to-acquire-arm-for-40-billion-creating-worlds-premier-computing-company-for-the-age-of-ai">Nvidia blog</a>, ARM is being acquired by Nvidia. There were <a href="https://www.theverge.com/circuitbreaker/2020/7/31/21349332/nvidia-talks-buy-arm-processor-mobile-deal-32-billion-softbank-purchase-rumor">rumors</a> in <a href="https://www.wsj.com/articles/softbank-explores-options-for-chip-designer-arm-holdings-11594672437">July</a>. After reading the official confirmation, I decided to make a blog post so that I could share my thoughts without reposting it about why Nvidia acquired ARM. I do enjoy reading and listening to analysis of the technology industry and businesses.
 title: Nvidia Acquiring ARM From The Perspective of a Technology Enthusiast and Business Student
+comments: true
 nb_path: _notebooks/2020-09-15-Nvidia-ARM-Acqusition.ipynb
 layout: notebook
 ---
@@ -15,13 +16,6 @@ layout: notebook
 
 <div class="container" id="notebook-container">
         
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-
-</div>
-    {% endraw %}
-
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><h1>Table of Contents<span class="tocSkip"></span></h1></p>
