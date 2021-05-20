@@ -3,7 +3,7 @@ keywords: fastai
 description: This post is my documentation on the code I wrote to generate the graphs and figures from my <a href=https://www.linkedin.com/posts/progressedd_illini-esports-growth-and-engagement-analysis-activity-6801017566077743104-J5Qv> Illini Esports Growth and Engagement Analysis Post</a>. I have also posted the report to my <a href = https://github.com/progressEdd/Illini-Esports-Analysis/tree/master#illini-esports-growth-and-engagement-analysis> github repository</a> Feel free to read the original document as it contains the full written analysis and insights from my team. I gained a lot of experience working with date time objects and ggplot2 in this project.
 title: Behind The Scenes of Illini Esports Growth and Engagement Analysis
 comments: true
-image: images/posts/bts_IE_Growth_And_Engagement_Analysis/All-New-Members.png
+image: images/posts/bts_IE_Growth_And_Engagement_Analysis/perfect.png
 nb_path: _notebooks/2021-05-18-Behind-The-Scenes-of-Illini-Esports-Growth-and-Engagement-Analysis.ipynb
 layout: notebook
 ---
