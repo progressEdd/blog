@@ -2,6 +2,7 @@
 keywords: fastai
 description: As a graduate student during COVID-19 some of my classes were online. I found it difficult to share my iPad screen over web conferences. At that time, I did not want to install Zoom because of the numerous <a href='https://thehackernews.com/2020/08/zoom-software-vulnerabilities.html'>security vulnerabilities</a>. Furthermore, the feature of casting my iPad screen was exclusive to Zoom. If I wanted to share my screen in other applications such as Microsoft Teams or Google Meet — I needed an alternative. Over the course of a couple months, I researched and tested multiple methods to cast my iPad screen. This blog post is the fruits of my labor.
 title: Investigating RPiPlay — Apple Airplay on Fedora Linux
+comments: true
 nb_path: _notebooks/2020-12-23-Investigating-RPiPlay-Apple-Airplay-on-Fedora-Linux.ipynb
 layout: notebook
 ---
@@ -15,13 +16,6 @@ layout: notebook
 
 <div class="container" id="notebook-container">
         
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-
-</div>
-    {% endraw %}
-
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><h1>Table of Contents<span class="tocSkip"></span></h1></p>
