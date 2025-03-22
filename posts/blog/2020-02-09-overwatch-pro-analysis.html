@@ -1,0 +1,3985 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="progressEdd">
+<meta name="dcterms.date" content="2020-02-09">
+<meta name="description" content="In a lot of esports, players watch the professional players as they have both a high mechanical skill and a deep understanding of the game.">
+
+<title>Analysis on the Pros of Overwatch – What’s The Progress</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-29691c3a766d3ffdb963fe4326aa44ec.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">What’s The Progress</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../experiences.html"> 
+<span class="menu-text">Experiences</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Analysis on the Pros of Overwatch</h1>
+                  <div>
+        <div class="description">
+          In a lot of esports, players watch the professional players as they have both a high mechanical skill and a deep understanding of the game.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Analysis</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>progressEdd </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 9, 2020</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<h1>
+Table of Contents<span class="tocSkip"></span>
+</h1>
+<div class="toc">
+<ul class="toc-item">
+<li>
+<span><a href="#Analysis-on-the-Pros-of-Overwatch" data-toc-modified-id="Analysis-on-the-Pros-of-Overwatch-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Analysis on the Pros of Overwatch</a></span>
+</li>
+<li>
+<span><a href="#Loading-the-Data-Frame" data-toc-modified-id="Loading-the-Data-Frame-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Loading the Data Frame</a></span>
+</li>
+<li>
+<span><a href="#Relations-Between-Stats" data-toc-modified-id="Relations-Between-Stats-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Relations Between Stats</a></span>
+</li>
+<li>
+<span><a href="#Figuring-Out-Which-Pro-has-The-Best-Stats" data-toc-modified-id="Figuring-Out-Which-Pro-has-The-Best-Stats-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Figuring Out Which Pro has The Best Stats</a></span>
+<ul class="toc-item">
+<li>
+<span><a href="#Most-Eliminations" data-toc-modified-id="Most-Eliminations-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Most Eliminations</a></span>
+</li>
+<li>
+<span><a href="#Most-Damage-Dealt" data-toc-modified-id="Most-Damage-Dealt-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Most Damage Dealt</a></span>
+</li>
+<li>
+<span><a href="#Most-Final-Blows-Dealt" data-toc-modified-id="Most-Final-Blows-Dealt-4.3"><span class="toc-item-num">4.3&nbsp;&nbsp;</span>Most Final Blows Dealt</a></span>
+</li>
+<li>
+<span><a href="#Most-Ultimates-Earned" data-toc-modified-id="Most-Ultimates-Earned-4.4"><span class="toc-item-num">4.4&nbsp;&nbsp;</span>Most Ultimates Earned</a></span>
+</li>
+<li>
+<span><a href="#Most-Healing-Dealt" data-toc-modified-id="Most-Healing-Dealt-4.5"><span class="toc-item-num">4.5&nbsp;&nbsp;</span>Most Healing Dealt</a></span>
+</li>
+<li>
+<span><a href="#Least-Deaths-Recieved" data-toc-modified-id="Least-Deaths-Recieved-4.6"><span class="toc-item-num">4.6&nbsp;&nbsp;</span>Least Deaths Recieved</a></span>
+</li>
+<li>
+<span><a href="#Most-Playtime-Recived" data-toc-modified-id="Most-Playtime-Recived-4.7"><span class="toc-item-num">4.7&nbsp;&nbsp;</span>Most Playtime Recived</a></span>
+</li>
+<li>
+<span><a href="#Least-Playtime-Recived" data-toc-modified-id="Least-Playtime-Recived-4.8"><span class="toc-item-num">4.8&nbsp;&nbsp;</span>Least Playtime Recived</a></span>
+</li>
+</ul>
+</li>
+<li>
+<span><a href="#Explanation-For-What-I-have-chosen" data-toc-modified-id="Explanation-For-What-I-have-chosen-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Explanation For What I have chosen</a></span>
+</li>
+<li>
+<span><a href="#Grouping-by-role" data-toc-modified-id="Grouping-by-role-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Grouping by role</a></span>
+<ul class="toc-item">
+<li>
+<span><a href="#Counts-For-Each-Role" data-toc-modified-id="Counts-For-Each-Role-6.1"><span class="toc-item-num">6.1&nbsp;&nbsp;</span>Counts For Each Role</a></span>
+</li>
+<li>
+<span><a href="#How-Many-Eliminations-Do-Each-Role-Get?" data-toc-modified-id="How-Many-Eliminations-Do-Each-Role-Get?-6.2"><span class="toc-item-num">6.2&nbsp;&nbsp;</span>How Many Eliminations Do Each Role Get?</a></span>
+</li>
+<li>
+<span><a href="#How-Much-Damage-is-Dealt-by-Each-Role?" data-toc-modified-id="How-Much-Damage-is-Dealt-by-Each-Role?-6.3"><span class="toc-item-num">6.3&nbsp;&nbsp;</span>How Much Damage is Dealt by Each Role?</a></span>
+</li>
+<li>
+<span><a href="#How-Many-Deaths-Do-Each-Role-Get?" data-toc-modified-id="How-Many-Deaths-Do-Each-Role-Get?-6.4"><span class="toc-item-num">6.4&nbsp;&nbsp;</span>How Many Deaths Do Each Role Get?</a></span>
+</li>
+</ul>
+</li>
+<li>
+<span><a href="#How-do-teams-affect-statistics" data-toc-modified-id="How-do-teams-affect-statistics-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>How do teams affect statistics</a></span>
+<ul class="toc-item">
+<li>
+<span><a href="#How-Many-Eliminations-Do-Each-Team-Get?" data-toc-modified-id="How-Many-Eliminations-Do-Each-Team-Get?-7.1"><span class="toc-item-num">7.1&nbsp;&nbsp;</span>How Many Eliminations Do Each Team Get?</a></span>
+</li>
+<li>
+<span><a href="#How-Much-Damage-is-Dealt-by-Each-Team?" data-toc-modified-id="How-Much-Damage-is-Dealt-by-Each-Team?-7.2"><span class="toc-item-num">7.2&nbsp;&nbsp;</span>How Much Damage is Dealt by Each Team?</a></span>
+</li>
+<li>
+<span><a href="#How-Many-Deaths-is-Recieved-By-Each-Team?" data-toc-modified-id="How-Many-Deaths-is-Recieved-By-Each-Team?-7.3"><span class="toc-item-num">7.3&nbsp;&nbsp;</span>How Many Deaths is Recieved By Each Team?</a></span>
+</li>
+</ul>
+</li>
+<li>
+<span><a href="#Linear-Regression?" data-toc-modified-id="Linear-Regression?-8"><span class="toc-item-num">8&nbsp;&nbsp;</span>Linear Regression?</a></span>
+</li>
+</ul>
+</div>
+<div id="cell-2" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.core.display <span class="im">import</span> display, HTML  </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>display(HTML(<span class="st">"&lt;style&gt;.container { width:100% !important; }&lt;/style&gt;"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<style>.container { width:100% !important; }</style>
+</div>
+</div>
+<section id="loading-the-data-frame" class="level1">
+<h1>Loading the Data Frame</h1>
+<p>I used the pandas library to import my csv file to a Dataframe</p>
+<div id="cell-4" class="cell" data-execution_count="5">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">"owl.csv"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="5">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">playerId</th>
+<th data-quarto-table-cell-role="th">teamId</th>
+<th data-quarto-table-cell-role="th">role</th>
+<th data-quarto-table-cell-role="th">name</th>
+<th data-quarto-table-cell-role="th">team</th>
+<th data-quarto-table-cell-role="th">eliminations_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">deaths_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">hero_damage_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">healing_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">ultimates_earned_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">final_blows_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">time_played_total</th>
+<th data-quarto-table-cell-role="th">count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>8675</td>
+<td>7693</td>
+<td>offense</td>
+<td>Adora</td>
+<td>HZS</td>
+<td>16.002129</td>
+<td>3.876235</td>
+<td>5390.964430</td>
+<td>5678.864360</td>
+<td>4.410253</td>
+<td>4.134037</td>
+<td>65166.328327</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>3985</td>
+<td>4523</td>
+<td>offense</td>
+<td>aKm</td>
+<td>DAL</td>
+<td>17.296143</td>
+<td>5.178533</td>
+<td>9600.623636</td>
+<td>158.646056</td>
+<td>4.575825</td>
+<td>6.050875</td>
+<td>75658.485169</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>8812</td>
+<td>7692</td>
+<td>tank</td>
+<td>ameng</td>
+<td>CDH</td>
+<td>16.470544</td>
+<td>6.202665</td>
+<td>7051.640852</td>
+<td>0.724798</td>
+<td>4.511644</td>
+<td>5.046006</td>
+<td>88703.810417</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>4841</td>
+<td>4403</td>
+<td>support</td>
+<td>Anamo</td>
+<td>NYE</td>
+<td>14.165021</td>
+<td>2.745207</td>
+<td>3948.127250</td>
+<td>6563.244540</td>
+<td>3.567532</td>
+<td>1.898150</td>
+<td>97041.863429</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>5715</td>
+<td>4404</td>
+<td>offense</td>
+<td>Architect</td>
+<td>SFS</td>
+<td>18.181756</td>
+<td>4.555888</td>
+<td>7825.862117</td>
+<td>3806.894747</td>
+<td>4.639483</td>
+<td>8.087747</td>
+<td>28710.098079</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">5</td>
+<td>4652</td>
+<td>7697</td>
+<td>support</td>
+<td>ArK</td>
+<td>WAS</td>
+<td>7.870130</td>
+<td>2.641469</td>
+<td>2482.555936</td>
+<td>6825.268613</td>
+<td>3.518943</td>
+<td>1.320735</td>
+<td>66326.727702</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">6</td>
+<td>5878</td>
+<td>4402</td>
+<td>tank</td>
+<td>Axxiom</td>
+<td>BOS</td>
+<td>13.589015</td>
+<td>6.323052</td>
+<td>7227.732159</td>
+<td>0.000000</td>
+<td>3.771645</td>
+<td>3.383387</td>
+<td>10817.561445</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">7</td>
+<td>4491</td>
+<td>7698</td>
+<td>offense</td>
+<td>babybay</td>
+<td>ATL</td>
+<td>18.285137</td>
+<td>4.898535</td>
+<td>9724.894013</td>
+<td>153.512705</td>
+<td>4.520151</td>
+<td>6.320031</td>
+<td>58670.601443</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">8</td>
+<td>8896</td>
+<td>7692</td>
+<td>offense</td>
+<td>Baconjack</td>
+<td>CDH</td>
+<td>15.605830</td>
+<td>6.119487</td>
+<td>7305.171594</td>
+<td>123.938222</td>
+<td>4.231318</td>
+<td>6.506221</td>
+<td>26374.758866</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">9</td>
+<td>4624</td>
+<td>4525</td>
+<td>support</td>
+<td>Bani</td>
+<td>HOU</td>
+<td>11.303448</td>
+<td>5.257418</td>
+<td>4791.691330</td>
+<td>6825.377770</td>
+<td>3.680192</td>
+<td>2.102967</td>
+<td>2282.489336</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">10</td>
+<td>8676</td>
+<td>7693</td>
+<td>offense</td>
+<td>Bazzi</td>
+<td>HZS</td>
+<td>15.814585</td>
+<td>5.846427</td>
+<td>5369.937012</td>
+<td>7506.352638</td>
+<td>4.589445</td>
+<td>3.800178</td>
+<td>20525.356901</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">11</td>
+<td>4655</td>
+<td>4410</td>
+<td>support</td>
+<td>Bdosin</td>
+<td>LDN</td>
+<td>15.048464</td>
+<td>4.107217</td>
+<td>6983.868463</td>
+<td>8836.736647</td>
+<td>4.746420</td>
+<td>3.882816</td>
+<td>88234.919687</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">12</td>
+<td>8731</td>
+<td>7693</td>
+<td>support</td>
+<td>BEBE</td>
+<td>HZS</td>
+<td>14.154976</td>
+<td>3.952661</td>
+<td>7197.340358</td>
+<td>9429.701829</td>
+<td>4.803399</td>
+<td>3.533836</td>
+<td>91685.070527</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">13</td>
+<td>8708</td>
+<td>7694</td>
+<td>tank</td>
+<td>BenBest</td>
+<td>PAR</td>
+<td>13.411352</td>
+<td>6.584489</td>
+<td>6648.912608</td>
+<td>0.000000</td>
+<td>4.201147</td>
+<td>4.026099</td>
+<td>44559.264875</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">14</td>
+<td>4643</td>
+<td>4406</td>
+<td>support</td>
+<td>BigG00se</td>
+<td>GLA</td>
+<td>12.350082</td>
+<td>4.683845</td>
+<td>3870.859580</td>
+<td>6429.321595</td>
+<td>3.655210</td>
+<td>2.206065</td>
+<td>92744.320062</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">15</td>
+<td>4639</td>
+<td>7699</td>
+<td>tank</td>
+<td>Bischu</td>
+<td>GZC</td>
+<td>16.794393</td>
+<td>5.927433</td>
+<td>7229.213813</td>
+<td>1836.443127</td>
+<td>2.963716</td>
+<td>8.891149</td>
+<td>1214.691094</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">16</td>
+<td>8184</td>
+<td>4525</td>
+<td>offense</td>
+<td>blase</td>
+<td>HOU</td>
+<td>14.115152</td>
+<td>5.688758</td>
+<td>5288.563477</td>
+<td>5127.842249</td>
+<td>3.993433</td>
+<td>4.545983</td>
+<td>95556.889781</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">17</td>
+<td>4625</td>
+<td>4525</td>
+<td>support</td>
+<td>Boink</td>
+<td>HOU</td>
+<td>8.675604</td>
+<td>5.084554</td>
+<td>2736.000684</td>
+<td>5754.139120</td>
+<td>3.133041</td>
+<td>1.772292</td>
+<td>90391.403033</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">18</td>
+<td>4079</td>
+<td>4524</td>
+<td>support</td>
+<td>Boombox</td>
+<td>PHI</td>
+<td>14.716397</td>
+<td>4.686374</td>
+<td>6282.962865</td>
+<td>9251.731158</td>
+<td>4.765247</td>
+<td>3.542715</td>
+<td>91285.929199</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">19</td>
+<td>8704</td>
+<td>4407</td>
+<td>offense</td>
+<td>bqb</td>
+<td>FLA</td>
+<td>16.439333</td>
+<td>4.809016</td>
+<td>8641.233568</td>
+<td>319.525665</td>
+<td>4.536164</td>
+<td>4.972728</td>
+<td>87959.775570</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">20</td>
+<td>8771</td>
+<td>7696</td>
+<td>tank</td>
+<td>BUMPER</td>
+<td>VAN</td>
+<td>16.630474</td>
+<td>5.906248</td>
+<td>7969.093625</td>
+<td>6.324790</td>
+<td>4.654208</td>
+<td>5.399093</td>
+<td>113574.634219</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">21</td>
+<td>10031</td>
+<td>4407</td>
+<td>support</td>
+<td>byrem</td>
+<td>FLA</td>
+<td>11.418219</td>
+<td>5.360666</td>
+<td>5266.262933</td>
+<td>7719.478526</td>
+<td>3.752466</td>
+<td>4.127713</td>
+<td>11192.639166</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">22</td>
+<td>4620</td>
+<td>4524</td>
+<td>offense</td>
+<td>carpe</td>
+<td>PHI</td>
+<td>17.983018</td>
+<td>4.844880</td>
+<td>8782.867900</td>
+<td>137.704463</td>
+<td>4.146629</td>
+<td>7.031507</td>
+<td>97959.083057</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">23</td>
+<td>8721</td>
+<td>7699</td>
+<td>support</td>
+<td>Chara</td>
+<td>GZC</td>
+<td>10.361039</td>
+<td>3.866669</td>
+<td>3932.990917</td>
+<td>5914.067038</td>
+<td>3.253993</td>
+<td>1.912912</td>
+<td>88137.878443</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">24</td>
+<td>5831</td>
+<td>4404</td>
+<td>tank</td>
+<td>Choihyobin</td>
+<td>SFS</td>
+<td>19.391551</td>
+<td>3.472553</td>
+<td>6035.142896</td>
+<td>302.338209</td>
+<td>2.882165</td>
+<td>5.957548</td>
+<td>111790.956037</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">25</td>
+<td>4663</td>
+<td>4523</td>
+<td>support</td>
+<td>Closer</td>
+<td>DAL</td>
+<td>10.935586</td>
+<td>3.527819</td>
+<td>3511.197807</td>
+<td>6354.660012</td>
+<td>3.377837</td>
+<td>1.936714</td>
+<td>92011.533219</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">26</td>
+<td>5306</td>
+<td>4402</td>
+<td>offense</td>
+<td>ColourHex</td>
+<td>BOS</td>
+<td>14.899417</td>
+<td>5.548090</td>
+<td>8649.812908</td>
+<td>168.870374</td>
+<td>3.966816</td>
+<td>5.752565</td>
+<td>88030.291299</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">27</td>
+<td>8892</td>
+<td>4408</td>
+<td>support</td>
+<td>CoMa</td>
+<td>SHD</td>
+<td>7.909984</td>
+<td>3.700223</td>
+<td>2070.655671</td>
+<td>6161.834635</td>
+<td>3.184618</td>
+<td>1.389100</td>
+<td>98912.968913</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">28</td>
+<td>4138</td>
+<td>4525</td>
+<td>tank</td>
+<td>coolmatt</td>
+<td>HOU</td>
+<td>15.208515</td>
+<td>4.527089</td>
+<td>6774.211482</td>
+<td>183.137562</td>
+<td>4.214156</td>
+<td>4.777435</td>
+<td>28760.204940</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">29</td>
+<td>8784</td>
+<td>7697</td>
+<td>offense</td>
+<td>Corey</td>
+<td>WAS</td>
+<td>15.025158</td>
+<td>5.201795</td>
+<td>9003.292089</td>
+<td>127.436107</td>
+<td>4.608075</td>
+<td>7.036929</td>
+<td>88930.845029</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">123</td>
+<td>9155</td>
+<td>7693</td>
+<td>offense</td>
+<td>SASIN</td>
+<td>HZS</td>
+<td>15.217982</td>
+<td>4.972212</td>
+<td>6304.243753</td>
+<td>450.467436</td>
+<td>2.862789</td>
+<td>6.026923</td>
+<td>3982.131229</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">124</td>
+<td>5442</td>
+<td>4407</td>
+<td>offense</td>
+<td>sayaplayer</td>
+<td>FLA</td>
+<td>13.396877</td>
+<td>5.487655</td>
+<td>6048.630900</td>
+<td>4204.440753</td>
+<td>4.051289</td>
+<td>6.067726</td>
+<td>65164.442533</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">125</td>
+<td>8728</td>
+<td>7696</td>
+<td>offense</td>
+<td>SeoMinSoo</td>
+<td>VAN</td>
+<td>21.092578</td>
+<td>3.588644</td>
+<td>10933.062491</td>
+<td>198.216055</td>
+<td>5.075465</td>
+<td>7.048881</td>
+<td>88780.044028</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">126</td>
+<td>10041</td>
+<td>4405</td>
+<td>offense</td>
+<td>Shax</td>
+<td>VAL</td>
+<td>16.920446</td>
+<td>5.694832</td>
+<td>6499.728449</td>
+<td>332.208914</td>
+<td>4.148087</td>
+<td>6.515075</td>
+<td>25602.161674</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">127</td>
+<td>4644</td>
+<td>4406</td>
+<td>support</td>
+<td>Shaz</td>
+<td>GLA</td>
+<td>14.269397</td>
+<td>4.063945</td>
+<td>6467.514174</td>
+<td>10113.314711</td>
+<td>4.988753</td>
+<td>3.243341</td>
+<td>92127.225783</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">128</td>
+<td>8725</td>
+<td>7699</td>
+<td>support</td>
+<td>shu</td>
+<td>GZC</td>
+<td>14.059122</td>
+<td>3.826302</td>
+<td>6458.460594</td>
+<td>8793.613298</td>
+<td>4.767641</td>
+<td>3.609592</td>
+<td>88597.283044</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">129</td>
+<td>4139</td>
+<td>4404</td>
+<td>offense</td>
+<td>sinatraa</td>
+<td>SFS</td>
+<td>20.914314</td>
+<td>3.497822</td>
+<td>11849.397959</td>
+<td>111.562321</td>
+<td>5.252785</td>
+<td>7.019851</td>
+<td>99147.405428</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">130</td>
+<td>8749</td>
+<td>7696</td>
+<td>support</td>
+<td>SLIME</td>
+<td>VAN</td>
+<td>14.527621</td>
+<td>3.703972</td>
+<td>4165.190298</td>
+<td>5882.757861</td>
+<td>3.192704</td>
+<td>2.724949</td>
+<td>110314.003005</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">131</td>
+<td>7831</td>
+<td>4404</td>
+<td>tank</td>
+<td>Smurf</td>
+<td>SFS</td>
+<td>17.720797</td>
+<td>4.922444</td>
+<td>6587.333835</td>
+<td>0.000000</td>
+<td>3.999486</td>
+<td>4.983974</td>
+<td>19502.508479</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">132</td>
+<td>4493</td>
+<td>4524</td>
+<td>offense</td>
+<td>snillo</td>
+<td>PHI</td>
+<td>13.115663</td>
+<td>7.286479</td>
+<td>4268.438247</td>
+<td>6369.452283</td>
+<td>2.914592</td>
+<td>2.914592</td>
+<td>411.721471</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">133</td>
+<td>3987</td>
+<td>7694</td>
+<td>offense</td>
+<td>SoOn</td>
+<td>PAR</td>
+<td>17.156117</td>
+<td>6.122379</td>
+<td>8755.638934</td>
+<td>181.999070</td>
+<td>4.459629</td>
+<td>6.852836</td>
+<td>62426.713501</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">134</td>
+<td>4637</td>
+<td>4406</td>
+<td>tank</td>
+<td>SPACE</td>
+<td>GLA</td>
+<td>16.937870</td>
+<td>3.754919</td>
+<td>6297.654849</td>
+<td>349.497358</td>
+<td>4.028947</td>
+<td>5.421303</td>
+<td>81013.727587</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">135</td>
+<td>4094</td>
+<td>4525</td>
+<td>tank</td>
+<td>SPREE</td>
+<td>HOU</td>
+<td>16.057987</td>
+<td>4.951975</td>
+<td>7074.346063</td>
+<td>442.661626</td>
+<td>3.723781</td>
+<td>5.265556</td>
+<td>45921.072883</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">136</td>
+<td>8747</td>
+<td>7696</td>
+<td>offense</td>
+<td>Stitch</td>
+<td>VAN</td>
+<td>17.654422</td>
+<td>5.264495</td>
+<td>7419.042221</td>
+<td>628.318125</td>
+<td>4.211596</td>
+<td>6.807114</td>
+<td>24503.776509</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">137</td>
+<td>8783</td>
+<td>7697</td>
+<td>offense</td>
+<td>Stratus</td>
+<td>WAS</td>
+<td>15.851749</td>
+<td>5.322345</td>
+<td>6520.332819</td>
+<td>1105.055288</td>
+<td>3.785206</td>
+<td>5.648987</td>
+<td>31226.837463</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">138</td>
+<td>4610</td>
+<td>4404</td>
+<td>offense</td>
+<td>STRIKER</td>
+<td>SFS</td>
+<td>16.207208</td>
+<td>6.053294</td>
+<td>7380.909425</td>
+<td>140.294067</td>
+<td>4.491154</td>
+<td>8.201238</td>
+<td>6145.413898</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">139</td>
+<td>4490</td>
+<td>4404</td>
+<td>tank</td>
+<td>super</td>
+<td>SFS</td>
+<td>17.351664</td>
+<td>5.256228</td>
+<td>8277.983328</td>
+<td>5.826254</td>
+<td>4.657262</td>
+<td>6.197460</td>
+<td>98169.257876</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">140</td>
+<td>4144</td>
+<td>4406</td>
+<td>offense</td>
+<td>Surefour</td>
+<td>GLA</td>
+<td>16.264683</td>
+<td>4.850343</td>
+<td>7702.970198</td>
+<td>2334.307256</td>
+<td>4.409403</td>
+<td>6.784467</td>
+<td>59872.055648</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">141</td>
+<td>3380</td>
+<td>4523</td>
+<td>offense</td>
+<td>Taimou</td>
+<td>DAL</td>
+<td>13.643140</td>
+<td>5.311080</td>
+<td>6980.864470</td>
+<td>353.580132</td>
+<td>4.141668</td>
+<td>6.724119</td>
+<td>12313.880814</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">142</td>
+<td>4104</td>
+<td>4409</td>
+<td>support</td>
+<td>tobi</td>
+<td>SEO</td>
+<td>12.527639</td>
+<td>3.561285</td>
+<td>3821.983777</td>
+<td>6536.903535</td>
+<td>3.460255</td>
+<td>2.083730</td>
+<td>47510.945922</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">143</td>
+<td>10021</td>
+<td>4523</td>
+<td>tank</td>
+<td>Trill</td>
+<td>DAL</td>
+<td>11.016714</td>
+<td>6.549455</td>
+<td>5723.625044</td>
+<td>0.000000</td>
+<td>3.482947</td>
+<td>3.369373</td>
+<td>15848.646641</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">144</td>
+<td>8729</td>
+<td>7696</td>
+<td>support</td>
+<td>Twilight</td>
+<td>VAN</td>
+<td>16.044986</td>
+<td>4.139107</td>
+<td>7122.262343</td>
+<td>9320.446421</td>
+<td>5.048997</td>
+<td>4.156948</td>
+<td>100891.334471</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">145</td>
+<td>3983</td>
+<td>4523</td>
+<td>support</td>
+<td>uNKOE</td>
+<td>DAL</td>
+<td>12.889446</td>
+<td>4.796602</td>
+<td>5795.335146</td>
+<td>9419.885852</td>
+<td>4.592007</td>
+<td>3.175002</td>
+<td>79181.059063</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">146</td>
+<td>8688</td>
+<td>4404</td>
+<td>support</td>
+<td>Viol2t</td>
+<td>SFS</td>
+<td>17.185764</td>
+<td>4.195764</td>
+<td>7637.591409</td>
+<td>10409.200261</td>
+<td>5.300486</td>
+<td>4.440653</td>
+<td>110254.045210</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">147</td>
+<td>5809</td>
+<td>4406</td>
+<td>tank</td>
+<td>Void</td>
+<td>GLA</td>
+<td>19.343389</td>
+<td>3.178936</td>
+<td>6457.220391</td>
+<td>250.965632</td>
+<td>2.048810</td>
+<td>5.555847</td>
+<td>82291.682828</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">148</td>
+<td>8710</td>
+<td>7692</td>
+<td>offense</td>
+<td>YangXiaoLong</td>
+<td>CDH</td>
+<td>15.342481</td>
+<td>5.957453</td>
+<td>7572.263394</td>
+<td>299.683611</td>
+<td>4.115422</td>
+<td>6.295547</td>
+<td>51464.949743</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">149</td>
+<td>8894</td>
+<td>4408</td>
+<td>offense</td>
+<td>YOUNGJIN</td>
+<td>SHD</td>
+<td>17.674387</td>
+<td>5.835630</td>
+<td>6183.788216</td>
+<td>5143.003544</td>
+<td>4.046751</td>
+<td>6.204125</td>
+<td>89553.317851</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">150</td>
+<td>8813</td>
+<td>7692</td>
+<td>support</td>
+<td>Yveltal</td>
+<td>CDH</td>
+<td>7.512112</td>
+<td>4.692623</td>
+<td>2209.111332</td>
+<td>7691.353637</td>
+<td>3.602681</td>
+<td>1.520697</td>
+<td>91931.532277</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">151</td>
+<td>8642</td>
+<td>4523</td>
+<td>offense</td>
+<td>ZachaREEE</td>
+<td>DAL</td>
+<td>15.167823</td>
+<td>5.666740</td>
+<td>5698.414532</td>
+<td>6211.639093</td>
+<td>4.642945</td>
+<td>3.866947</td>
+<td>92010.565901</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">152</td>
+<td>4098</td>
+<td>4409</td>
+<td>tank</td>
+<td>ZUNBA</td>
+<td>SEO</td>
+<td>18.577579</td>
+<td>2.959663</td>
+<td>6789.544551</td>
+<td>0.000000</td>
+<td>2.549864</td>
+<td>5.737194</td>
+<td>13177.174514</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+
+<p>153 rows × 13 columns</p>
+</div>
+</div>
+</div>
+</section>
+<section id="relations-between-stats" class="level1">
+<h1>Relations Between Stats</h1>
+<p>We are going to make a correlation table with the .corr() Function</p>
+<div id="cell-6" class="cell" data-scrolled="true" data-execution_count="6">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df_correleations <span class="op">=</span> df[[<span class="st">"eliminations_avg_per_10m"</span>,<span class="st">"deaths_avg_per_10m"</span>,<span class="st">"hero_damage_avg_per_10m"</span>,<span class="st">"healing_avg_per_10m"</span>,<span class="st">"ultimates_earned_avg_per_10m"</span>,<span class="st">"final_blows_avg_per_10m"</span>,<span class="st">"time_played_total"</span>]]</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>df_corr_table <span class="op">=</span> df_correleations.corr()</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>df_corr_table</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="6">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">eliminations_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">deaths_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">hero_damage_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">healing_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">ultimates_earned_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">final_blows_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">time_played_total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">eliminations_avg_per_10m</td>
+<td>1.000000</td>
+<td>-0.053546</td>
+<td>0.702982</td>
+<td>-0.520182</td>
+<td>0.108123</td>
+<td>0.768385</td>
+<td>0.184809</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">deaths_avg_per_10m</td>
+<td>-0.053546</td>
+<td>1.000000</td>
+<td>0.157248</td>
+<td>-0.242843</td>
+<td>0.131407</td>
+<td>0.183793</td>
+<td>-0.312624</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">hero_damage_avg_per_10m</td>
+<td>0.702982</td>
+<td>0.157248</td>
+<td>1.000000</td>
+<td>-0.468124</td>
+<td>0.467872</td>
+<td>0.756272</td>
+<td>0.130058</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">healing_avg_per_10m</td>
+<td>-0.520182</td>
+<td>-0.242843</td>
+<td>-0.468124</td>
+<td>1.000000</td>
+<td>0.345956</td>
+<td>-0.662879</td>
+<td>0.021491</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">ultimates_earned_avg_per_10m</td>
+<td>0.108123</td>
+<td>0.131407</td>
+<td>0.467872</td>
+<td>0.345956</td>
+<td>1.000000</td>
+<td>0.100654</td>
+<td>0.123582</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">final_blows_avg_per_10m</td>
+<td>0.768385</td>
+<td>0.183793</td>
+<td>0.756272</td>
+<td>-0.662879</td>
+<td>0.100654</td>
+<td>1.000000</td>
+<td>0.007640</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">time_played_total</td>
+<td>0.184809</td>
+<td>-0.312624</td>
+<td>0.130058</td>
+<td>0.021491</td>
+<td>0.123582</td>
+<td>0.007640</td>
+<td>1.000000</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<p>This is great, but let’s filter out correlations below .5 because they aren’t strong</p>
+<div id="cell-8" class="cell" data-scrolled="true" data-execution_count="7">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df_corr_table[(df_corr_table<span class="op">&gt;</span> <span class="fl">.5</span>) <span class="op">|</span> (df_corr_table <span class="op">&lt;-</span><span class="fl">.5</span>) <span class="op">&amp;</span> (df_corr_table <span class="op">&lt;</span> <span class="fl">1.0</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="7">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">eliminations_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">deaths_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">hero_damage_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">healing_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">ultimates_earned_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">final_blows_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">time_played_total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">eliminations_avg_per_10m</td>
+<td>1.000000</td>
+<td>NaN</td>
+<td>0.702982</td>
+<td>-0.520182</td>
+<td>NaN</td>
+<td>0.768385</td>
+<td>NaN</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">deaths_avg_per_10m</td>
+<td>NaN</td>
+<td>1.0</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">hero_damage_avg_per_10m</td>
+<td>0.702982</td>
+<td>NaN</td>
+<td>1.000000</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>0.756272</td>
+<td>NaN</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">healing_avg_per_10m</td>
+<td>-0.520182</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>1.000000</td>
+<td>NaN</td>
+<td>-0.662879</td>
+<td>NaN</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">ultimates_earned_avg_per_10m</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>1.0</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">final_blows_avg_per_10m</td>
+<td>0.768385</td>
+<td>NaN</td>
+<td>0.756272</td>
+<td>-0.662879</td>
+<td>NaN</td>
+<td>1.000000</td>
+<td>NaN</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">time_played_total</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>1.0</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<p>this looks great, but we are going to make this cleaner with the .drop() function so that the table doesn’t have so many NaNs</p>
+<div id="cell-10" class="cell" data-execution_count="8">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>df_column_drop <span class="op">=</span> df_corr_table.drop([<span class="st">"deaths_avg_per_10m"</span>, <span class="st">"ultimates_earned_avg_per_10m"</span>, <span class="st">"time_played_total"</span>])</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>df_relevant_correlations <span class="op">=</span> df_column_drop.drop([<span class="st">"deaths_avg_per_10m"</span>, <span class="st">"ultimates_earned_avg_per_10m"</span>, <span class="st">"time_played_total"</span>],axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>df_relevant_correlations</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="8">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">eliminations_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">hero_damage_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">healing_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">final_blows_avg_per_10m</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">eliminations_avg_per_10m</td>
+<td>1.000000</td>
+<td>0.702982</td>
+<td>-0.520182</td>
+<td>0.768385</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">hero_damage_avg_per_10m</td>
+<td>0.702982</td>
+<td>1.000000</td>
+<td>-0.468124</td>
+<td>0.756272</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">healing_avg_per_10m</td>
+<td>-0.520182</td>
+<td>-0.468124</td>
+<td>1.000000</td>
+<td>-0.662879</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">final_blows_avg_per_10m</td>
+<td>0.768385</td>
+<td>0.756272</td>
+<td>-0.662879</td>
+<td>1.000000</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<p>it appears that &gt; Eliminations and Hero Damage have a strong positive correlation with each other</p>
+<blockquote class="blockquote">
+<p>Eliminations and Final blows have a strong positive correlation with each other</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Eliminations and Healing have a moderate negative correlation with each other</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Final blows and Hero damage have a strong positive correlation with each other</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Final blows and Healing have a moderate negative correlation with each other</p>
+</blockquote>
+</section>
+<section id="figuring-out-which-pro-has-the-best-stats" class="level1">
+<h1>Figuring Out Which Pro has The Best Stats</h1>
+<p>Let’s take a look at which Pros have the most eliminations, damage dealt, final blows, ultimates earned, healing dealt, and least number of deaths</p>
+<section id="most-eliminations" class="level2">
+<h2 class="anchored" data-anchor-id="most-eliminations">Most Eliminations</h2>
+<div id="cell-14" class="cell" data-execution_count="9">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df_elims <span class="op">=</span> df[[<span class="st">"role"</span>, <span class="st">"name"</span>, <span class="st">"team"</span>, <span class="st">"eliminations_avg_per_10m"</span>]]</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>df_elims.nlargest(<span class="dv">10</span>, <span class="st">"eliminations_avg_per_10m"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="9">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">role</th>
+<th data-quarto-table-cell-role="th">name</th>
+<th data-quarto-table-cell-role="th">team</th>
+<th data-quarto-table-cell-role="th">eliminations_avg_per_10m</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">125</td>
+<td>offense</td>
+<td>SeoMinSoo</td>
+<td>VAN</td>
+<td>21.092578</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">129</td>
+<td>offense</td>
+<td>sinatraa</td>
+<td>SFS</td>
+<td>20.914314</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">75</td>
+<td>tank</td>
+<td>JJANU</td>
+<td>VAN</td>
+<td>20.056908</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">24</td>
+<td>tank</td>
+<td>Choihyobin</td>
+<td>SFS</td>
+<td>19.391551</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">98</td>
+<td>offense</td>
+<td>Nenne</td>
+<td>NYE</td>
+<td>19.365667</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">147</td>
+<td>tank</td>
+<td>Void</td>
+<td>GLA</td>
+<td>19.343389</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">59</td>
+<td>offense</td>
+<td>Haksal</td>
+<td>VAN</td>
+<td>19.341104</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">35</td>
+<td>offense</td>
+<td>diem</td>
+<td>SHD</td>
+<td>19.069305</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">93</td>
+<td>tank</td>
+<td>Michelle</td>
+<td>SEO</td>
+<td>18.928176</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">43</td>
+<td>offense</td>
+<td>FITS</td>
+<td>SEO</td>
+<td>18.882519</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</section>
+<section id="most-damage-dealt" class="level2">
+<h2 class="anchored" data-anchor-id="most-damage-dealt">Most Damage Dealt</h2>
+<div id="cell-16" class="cell" data-execution_count="10">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df_damage <span class="op">=</span> df[[<span class="st">"role"</span>, <span class="st">"name"</span>, <span class="st">"team"</span>, <span class="st">"hero_damage_avg_per_10m"</span>]]</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>df_damage.nlargest(<span class="dv">10</span>, <span class="st">"hero_damage_avg_per_10m"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="10">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">role</th>
+<th data-quarto-table-cell-role="th">name</th>
+<th data-quarto-table-cell-role="th">team</th>
+<th data-quarto-table-cell-role="th">hero_damage_avg_per_10m</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">129</td>
+<td>offense</td>
+<td>sinatraa</td>
+<td>SFS</td>
+<td>11849.397959</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">125</td>
+<td>offense</td>
+<td>SeoMinSoo</td>
+<td>VAN</td>
+<td>10933.062491</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">36</td>
+<td>offense</td>
+<td>Diya</td>
+<td>SHD</td>
+<td>10081.816984</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">69</td>
+<td>offense</td>
+<td>ivy</td>
+<td>TOR</td>
+<td>9899.923990</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">7</td>
+<td>offense</td>
+<td>babybay</td>
+<td>ATL</td>
+<td>9724.894013</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">56</td>
+<td>offense</td>
+<td>GodsB</td>
+<td>HZS</td>
+<td>9683.685510</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">1</td>
+<td>offense</td>
+<td>aKm</td>
+<td>DAL</td>
+<td>9600.623636</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">43</td>
+<td>offense</td>
+<td>FITS</td>
+<td>SEO</td>
+<td>9527.150428</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">98</td>
+<td>offense</td>
+<td>Nenne</td>
+<td>NYE</td>
+<td>9397.008782</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">116</td>
+<td>support</td>
+<td>Ripa</td>
+<td>GLA</td>
+<td>9261.831927</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</section>
+<section id="most-final-blows-dealt" class="level2">
+<h2 class="anchored" data-anchor-id="most-final-blows-dealt">Most Final Blows Dealt</h2>
+<div id="cell-18" class="cell" data-execution_count="11">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>df_final_blows <span class="op">=</span> df[[<span class="st">"role"</span>, <span class="st">"name"</span>, <span class="st">"team"</span>, <span class="st">"final_blows_avg_per_10m"</span>]]</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>df_final_blows.nlargest(<span class="dv">10</span>, <span class="st">"final_blows_avg_per_10m"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="11">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">role</th>
+<th data-quarto-table-cell-role="th">name</th>
+<th data-quarto-table-cell-role="th">team</th>
+<th data-quarto-table-cell-role="th">final_blows_avg_per_10m</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">15</td>
+<td>tank</td>
+<td>Bischu</td>
+<td>GZC</td>
+<td>8.891149</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">87</td>
+<td>offense</td>
+<td>Logix</td>
+<td>TOR</td>
+<td>8.368265</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">138</td>
+<td>offense</td>
+<td>STRIKER</td>
+<td>SFS</td>
+<td>8.201238</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">4</td>
+<td>offense</td>
+<td>Architect</td>
+<td>SFS</td>
+<td>8.087747</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">35</td>
+<td>offense</td>
+<td>diem</td>
+<td>SHD</td>
+<td>7.917622</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">86</td>
+<td>offense</td>
+<td>LiNkzr</td>
+<td>HOU</td>
+<td>7.424964</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">45</td>
+<td>tank</td>
+<td>fragi</td>
+<td>GZC</td>
+<td>7.409291</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">36</td>
+<td>offense</td>
+<td>Diya</td>
+<td>SHD</td>
+<td>7.223194</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">99</td>
+<td>offense</td>
+<td>nero</td>
+<td>GZC</td>
+<td>7.065229</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">125</td>
+<td>offense</td>
+<td>SeoMinSoo</td>
+<td>VAN</td>
+<td>7.048881</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</section>
+<section id="most-ultimates-earned" class="level2">
+<h2 class="anchored" data-anchor-id="most-ultimates-earned">Most Ultimates Earned</h2>
+<div id="cell-20" class="cell" data-execution_count="12">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>df_ultimates <span class="op">=</span> df[[<span class="st">"role"</span>, <span class="st">"name"</span>, <span class="st">"team"</span>, <span class="st">"ultimates_earned_avg_per_10m"</span>]]</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>df_ultimates.nlargest(<span class="dv">10</span>, <span class="st">"ultimates_earned_avg_per_10m"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="12">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">role</th>
+<th data-quarto-table-cell-role="th">name</th>
+<th data-quarto-table-cell-role="th">team</th>
+<th data-quarto-table-cell-role="th">ultimates_earned_avg_per_10m</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">116</td>
+<td>support</td>
+<td>Ripa</td>
+<td>GLA</td>
+<td>6.299542</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">110</td>
+<td>support</td>
+<td>RAPEL</td>
+<td>VAN</td>
+<td>5.533913</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">146</td>
+<td>support</td>
+<td>Viol2t</td>
+<td>SFS</td>
+<td>5.300486</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">129</td>
+<td>offense</td>
+<td>sinatraa</td>
+<td>SFS</td>
+<td>5.252785</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">78</td>
+<td>support</td>
+<td>Krillin</td>
+<td>LDN</td>
+<td>5.159678</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">111</td>
+<td>offense</td>
+<td>Rascal</td>
+<td>SFS</td>
+<td>5.150937</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">70</td>
+<td>support</td>
+<td>IZaYaKI</td>
+<td>SHD</td>
+<td>5.089731</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">125</td>
+<td>offense</td>
+<td>SeoMinSoo</td>
+<td>VAN</td>
+<td>5.075465</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">144</td>
+<td>support</td>
+<td>Twilight</td>
+<td>VAN</td>
+<td>5.048997</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">81</td>
+<td>offense</td>
+<td>Krystal</td>
+<td>HZS</td>
+<td>5.003493</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</section>
+<section id="most-healing-dealt" class="level2">
+<h2 class="anchored" data-anchor-id="most-healing-dealt">Most Healing Dealt</h2>
+<div id="cell-22" class="cell" data-execution_count="13">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>df_heals <span class="op">=</span> df[[<span class="st">"role"</span>, <span class="st">"name"</span>, <span class="st">"team"</span>, <span class="st">"healing_avg_per_10m"</span>]]</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>df_heals.nlargest(<span class="dv">10</span>, <span class="st">"healing_avg_per_10m"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="13">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">role</th>
+<th data-quarto-table-cell-role="th">name</th>
+<th data-quarto-table-cell-role="th">team</th>
+<th data-quarto-table-cell-role="th">healing_avg_per_10m</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">116</td>
+<td>support</td>
+<td>Ripa</td>
+<td>GLA</td>
+<td>12489.082153</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">61</td>
+<td>support</td>
+<td>HarryHook</td>
+<td>DAL</td>
+<td>10731.194372</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">70</td>
+<td>support</td>
+<td>IZaYaKI</td>
+<td>SHD</td>
+<td>10720.448760</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">110</td>
+<td>support</td>
+<td>RAPEL</td>
+<td>VAN</td>
+<td>10575.563042</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">66</td>
+<td>support</td>
+<td>HyP</td>
+<td>PAR</td>
+<td>10568.360507</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">78</td>
+<td>support</td>
+<td>Krillin</td>
+<td>LDN</td>
+<td>10410.303999</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">146</td>
+<td>support</td>
+<td>Viol2t</td>
+<td>SFS</td>
+<td>10409.200261</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">127</td>
+<td>support</td>
+<td>Shaz</td>
+<td>GLA</td>
+<td>10113.314711</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">12</td>
+<td>support</td>
+<td>BEBE</td>
+<td>HZS</td>
+<td>9429.701829</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">145</td>
+<td>support</td>
+<td>uNKOE</td>
+<td>DAL</td>
+<td>9419.885852</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</section>
+<section id="least-deaths-recieved" class="level2">
+<h2 class="anchored" data-anchor-id="least-deaths-recieved">Least Deaths Recieved</h2>
+<div id="cell-24" class="cell" data-execution_count="14">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>df_deaths <span class="op">=</span> df[[<span class="st">"role"</span>, <span class="st">"name"</span>, <span class="st">"team"</span>, <span class="st">"deaths_avg_per_10m"</span>]]</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>df_deaths.nsmallest(<span class="dv">10</span>, <span class="st">"deaths_avg_per_10m"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="14">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">role</th>
+<th data-quarto-table-cell-role="th">name</th>
+<th data-quarto-table-cell-role="th">team</th>
+<th data-quarto-table-cell-role="th">deaths_avg_per_10m</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">5</td>
+<td>support</td>
+<td>ArK</td>
+<td>WAS</td>
+<td>2.641469</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>support</td>
+<td>Anamo</td>
+<td>NYE</td>
+<td>2.745207</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">152</td>
+<td>tank</td>
+<td>ZUNBA</td>
+<td>SEO</td>
+<td>2.959663</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">147</td>
+<td>tank</td>
+<td>Void</td>
+<td>GLA</td>
+<td>3.178936</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">93</td>
+<td>tank</td>
+<td>Michelle</td>
+<td>SEO</td>
+<td>3.239774</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">75</td>
+<td>tank</td>
+<td>JJANU</td>
+<td>VAN</td>
+<td>3.381134</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">24</td>
+<td>tank</td>
+<td>Choihyobin</td>
+<td>SFS</td>
+<td>3.472553</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">105</td>
+<td>support</td>
+<td>Onlywish</td>
+<td>GZC</td>
+<td>3.493403</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">129</td>
+<td>offense</td>
+<td>sinatraa</td>
+<td>SFS</td>
+<td>3.497822</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">25</td>
+<td>support</td>
+<td>Closer</td>
+<td>DAL</td>
+<td>3.527819</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<p>It wouldn’t be fair to judge the stats for pro’s who don’t get a lot of play time.</p>
+<p>let’s see which pros got the most play time</p>
+</section>
+<section id="most-playtime-recived" class="level2">
+<h2 class="anchored" data-anchor-id="most-playtime-recived">Most Playtime Recived</h2>
+<div id="cell-27" class="cell" data-execution_count="15">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>df_time_largest <span class="op">=</span> df[[<span class="st">"role"</span>, <span class="st">"name"</span>, <span class="st">"team"</span>, <span class="st">"time_played_total"</span>]]</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>df_time_largest.nlargest(<span class="dv">10</span>, <span class="st">"time_played_total"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="15">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">role</th>
+<th data-quarto-table-cell-role="th">name</th>
+<th data-quarto-table-cell-role="th">team</th>
+<th data-quarto-table-cell-role="th">time_played_total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">95</td>
+<td>support</td>
+<td>moth</td>
+<td>SFS</td>
+<td>116859.144868</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">20</td>
+<td>tank</td>
+<td>BUMPER</td>
+<td>VAN</td>
+<td>113574.634219</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">24</td>
+<td>tank</td>
+<td>Choihyobin</td>
+<td>SFS</td>
+<td>111790.956037</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">130</td>
+<td>support</td>
+<td>SLIME</td>
+<td>VAN</td>
+<td>110314.003005</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">146</td>
+<td>support</td>
+<td>Viol2t</td>
+<td>SFS</td>
+<td>110254.045210</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">59</td>
+<td>offense</td>
+<td>Haksal</td>
+<td>VAN</td>
+<td>109848.948995</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">75</td>
+<td>tank</td>
+<td>JJANU</td>
+<td>VAN</td>
+<td>107005.528668</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">111</td>
+<td>offense</td>
+<td>Rascal</td>
+<td>SFS</td>
+<td>102156.164167</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">144</td>
+<td>support</td>
+<td>Twilight</td>
+<td>VAN</td>
+<td>100891.334471</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">129</td>
+<td>offense</td>
+<td>sinatraa</td>
+<td>SFS</td>
+<td>99147.405428</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</section>
+<section id="least-playtime-recived" class="level2">
+<h2 class="anchored" data-anchor-id="least-playtime-recived">Least Playtime Recived</h2>
+<div id="cell-29" class="cell" data-execution_count="16">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>df_time_smallest <span class="op">=</span> df[[<span class="st">"role"</span>, <span class="st">"name"</span>, <span class="st">"team"</span>, <span class="st">"time_played_total"</span>]]</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>df_time_smallest.nsmallest(<span class="dv">10</span>, <span class="st">"time_played_total"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="16">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">role</th>
+<th data-quarto-table-cell-role="th">name</th>
+<th data-quarto-table-cell-role="th">team</th>
+<th data-quarto-table-cell-role="th">time_played_total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">132</td>
+<td>offense</td>
+<td>snillo</td>
+<td>PHI</td>
+<td>411.721471</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">77</td>
+<td>tank</td>
+<td>Karayan</td>
+<td>FLA</td>
+<td>496.426940</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">36</td>
+<td>offense</td>
+<td>Diya</td>
+<td>SHD</td>
+<td>498.394445</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">116</td>
+<td>support</td>
+<td>Ripa</td>
+<td>GLA</td>
+<td>666.715092</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">47</td>
+<td>support</td>
+<td>FunnyAstro</td>
+<td>ATL</td>
+<td>1020.976662</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">15</td>
+<td>tank</td>
+<td>Bischu</td>
+<td>GZC</td>
+<td>1214.691094</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">45</td>
+<td>tank</td>
+<td>fragi</td>
+<td>GZC</td>
+<td>1214.691094</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">53</td>
+<td>tank</td>
+<td>Gator</td>
+<td>ATL</td>
+<td>1735.402076</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">94</td>
+<td>tank</td>
+<td>Mickie</td>
+<td>DAL</td>
+<td>2149.076643</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">105</td>
+<td>support</td>
+<td>Onlywish</td>
+<td>GZC</td>
+<td>2232.780163</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="explanation-for-what-i-have-chosen" class="level1">
+<h1>Explanation For What I have chosen</h1>
+<p>I have choosen Eliminations, Damage, and Deaths for this project because I wanted to apply the findings to my own games.</p>
+<p>Although these statistics do not reflect the skill level of a player, I personally would like to use these to figure out how I personally compare in my own competitive games to the pros.</p>
+</section>
+<section id="grouping-by-role" class="level1">
+<h1>Grouping by role</h1>
+<p>Which roles has the best in the various categories</p>
+<div id="cell-32" class="cell" data-execution_count="17">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>df_group_role <span class="op">=</span> df.groupby(<span class="st">"role"</span>)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>df_group_role <span class="op">=</span> df_group_role.agg(<span class="st">"sum"</span>).reset_index()</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>df_group_role</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="17">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">role</th>
+<th data-quarto-table-cell-role="th">playerId</th>
+<th data-quarto-table-cell-role="th">teamId</th>
+<th data-quarto-table-cell-role="th">eliminations_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">deaths_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">hero_damage_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">healing_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">ultimates_earned_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">final_blows_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">time_played_total</th>
+<th data-quarto-table-cell-role="th">count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>offense</td>
+<td>386317</td>
+<td>334557</td>
+<td>946.176006</td>
+<td>291.759163</td>
+<td>425826.207321</td>
+<td>130963.348462</td>
+<td>246.230313</td>
+<td>341.229728</td>
+<td>3.354968e+06</td>
+<td>57</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>support</td>
+<td>352231</td>
+<td>289111</td>
+<td>599.786627</td>
+<td>214.251135</td>
+<td>238364.322933</td>
+<td>386289.038203</td>
+<td>202.228107</td>
+<td>135.218342</td>
+<td>3.153147e+06</td>
+<td>49</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>tank</td>
+<td>316162</td>
+<td>270656</td>
+<td>768.694654</td>
+<td>242.023534</td>
+<td>307152.496101</td>
+<td>9071.285277</td>
+<td>167.693455</td>
+<td>242.304149</td>
+<td>2.905581e+06</td>
+<td>47</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="cell-33" class="cell" data-execution_count="18">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>df_group_role.plot.bar(x <span class="op">=</span> <span class="st">"role"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="counts-for-each-role" class="level2">
+<h2 class="anchored" data-anchor-id="counts-for-each-role">Counts For Each Role</h2>
+<div id="cell-35" class="cell" data-execution_count="19">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>df_group_role[[<span class="st">"role"</span>,<span class="st">"count"</span>]]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="19">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">role</th>
+<th data-quarto-table-cell-role="th">count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>offense</td>
+<td>57</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>support</td>
+<td>49</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>tank</td>
+<td>47</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="cell-36" class="cell" data-execution_count="20">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>df_group_role.plot.bar(x <span class="op">=</span> <span class="st">"role"</span>, y <span class="op">=</span> <span class="st">"count"</span> )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="2020-02-09-overwatch-pro-analysis_files/figure-html/cell-18-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>across all the roles, the count seems to be pretty spread evenly</p>
+</section>
+<section id="how-many-eliminations-do-each-role-get" class="level2">
+<h2 class="anchored" data-anchor-id="how-many-eliminations-do-each-role-get">How Many Eliminations Do Each Role Get?</h2>
+<p>They say that DPS should be the ones who get the most eliminations. That is true, however, tanks are pretty close to DPS.</p>
+<div id="cell-39" class="cell" data-execution_count="21">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>df_group_role[<span class="st">"Overall Average Eliminations Per 10m"</span>] <span class="op">=</span> df_group_role[<span class="st">"eliminations_avg_per_10m"</span>]<span class="op">/</span>df_group_role[<span class="st">"count"</span>]</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>df_group_role_elimminations <span class="op">=</span> df_group_role[[<span class="st">"role"</span>,<span class="st">"Overall Average Eliminations Per 10m"</span>]]</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>df_group_role_elimminations.nlargest(<span class="dv">3</span>, <span class="st">"Overall Average Eliminations Per 10m"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="21">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">role</th>
+<th data-quarto-table-cell-role="th">Overall Average Eliminations Per 10m</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>offense</td>
+<td>16.599579</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">2</td>
+<td>tank</td>
+<td>16.355205</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">1</td>
+<td>support</td>
+<td>12.240543</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="cell-40" class="cell" data-execution_count="22">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>df_group_role.plot.bar(x <span class="op">=</span> <span class="st">"role"</span>, y <span class="op">=</span> <span class="st">"Overall Average Eliminations Per 10m"</span> )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="2020-02-09-overwatch-pro-analysis_files/figure-html/cell-20-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>it appears that The tanks and DPS get almost about the same amount of damage. The Tanks might have more than the supports because they get more opportunities to do damage and finish off targets.</p>
+<p>It is also possible that during the GOATs meta (3 tanks 3 supports) tanks were the primary damage dealers.</p>
+</section>
+<section id="how-much-damage-is-dealt-by-each-role" class="level2">
+<h2 class="anchored" data-anchor-id="how-much-damage-is-dealt-by-each-role">How Much Damage is Dealt by Each Role?</h2>
+<div id="cell-43" class="cell" data-scrolled="true" data-execution_count="23">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>df_group_role[<span class="st">"Overall Average Damage Dealt per 10m"</span>] <span class="op">=</span> df_group_role[<span class="st">"hero_damage_avg_per_10m"</span>]<span class="op">/</span>df_group_role[<span class="st">"count"</span>]</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>df_group_role_Damage <span class="op">=</span> df_group_role[[<span class="st">"role"</span>,<span class="st">"Overall Average Damage Dealt per 10m"</span>]]</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>df_group_role_Damage.nlargest(<span class="dv">3</span>, <span class="st">"Overall Average Damage Dealt per 10m"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="23">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">role</th>
+<th data-quarto-table-cell-role="th">Overall Average Damage Dealt per 10m</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>offense</td>
+<td>7470.635216</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">2</td>
+<td>tank</td>
+<td>6535.159492</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">1</td>
+<td>support</td>
+<td>4864.578019</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="cell-44" class="cell" data-execution_count="24">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>df_group_role.plot.bar(x <span class="op">=</span> <span class="st">"role"</span>, y <span class="op">=</span> <span class="st">"Overall Average Damage Dealt per 10m"</span> )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="2020-02-09-overwatch-pro-analysis_files/figure-html/cell-22-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>In this category, the DPS did 1000 more damage per 10 min compared to the tanks.</p>
+<p>It is possible that the dps can focus more on dealing damage thus they would have more than the tanks. If we compare this back to the eliminations, it would appear that the DPS do the majority of the damage, and the tanks would finish off low health oppponents</p>
+</section>
+<section id="how-many-deaths-do-each-role-get" class="level2">
+<h2 class="anchored" data-anchor-id="how-many-deaths-do-each-role-get">How Many Deaths Do Each Role Get?</h2>
+<div id="cell-47" class="cell" data-execution_count="25">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>df_group_role[<span class="st">"Overall Average Deaths Per 10m"</span>] <span class="op">=</span> df_group_role[<span class="st">"deaths_avg_per_10m"</span>]<span class="op">/</span>df_group_role[<span class="st">"count"</span>]</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>df_group_role_Deaths <span class="op">=</span> df_group_role[[<span class="st">"role"</span>,<span class="st">"Overall Average Deaths Per 10m"</span>]]</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>df_group_role_Deaths.nlargest(<span class="dv">3</span>,<span class="st">"Overall Average Deaths Per 10m"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="25">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">role</th>
+<th data-quarto-table-cell-role="th">Overall Average Deaths Per 10m</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>tank</td>
+<td>5.149437</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">0</td>
+<td>offense</td>
+<td>5.118582</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">1</td>
+<td>support</td>
+<td>4.372472</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="cell-48" class="cell" data-execution_count="26">
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>df_group_role.plot.bar(x <span class="op">=</span> <span class="st">"role"</span>, y <span class="op">=</span> <span class="st">"Overall Average Deaths Per 10m"</span> )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="2020-02-09-overwatch-pro-analysis_files/figure-html/cell-24-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>In terms of deaths, it appears that the dps and tanks die more than the supports.</p>
+<p>The values are reasonable as supports in this game have better abilities that help them self sustain(Lucio amp and wall riding, Brigitte having a shield and inspire, Ana having sleep and nade, Moria healing orb and fade out etc.</p>
+<p>DPS and tanks constantly need to put themselves in risky positions to get value and their abilities for the most part don’t heal or sustain themselves (with obvious exceptions like soldier health pad, doomfist shields, and tracer recall).</p>
+</section>
+</section>
+<section id="how-do-teams-affect-statistics" class="level1">
+<h1>How do teams affect statistics</h1>
+<div id="cell-51" class="cell" data-execution_count="27">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>df_group_team <span class="op">=</span> df.groupby(<span class="st">"team"</span>)</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>df_group_team <span class="op">=</span> df_group_team.agg(<span class="st">"sum"</span>).reset_index()</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>df_group_team</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="27">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">team</th>
+<th data-quarto-table-cell-role="th">playerId</th>
+<th data-quarto-table-cell-role="th">teamId</th>
+<th data-quarto-table-cell-role="th">eliminations_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">deaths_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">hero_damage_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">healing_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">ultimates_earned_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">final_blows_avg_per_10m</th>
+<th data-quarto-table-cell-role="th">time_played_total</th>
+<th data-quarto-table-cell-role="th">count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>ATL</td>
+<td>85503</td>
+<td>76980</td>
+<td>157.793977</td>
+<td>50.490675</td>
+<td>62229.534763</td>
+<td>29717.316325</td>
+<td>39.633521</td>
+<td>46.196669</td>
+<td>542129.691046</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>BOS</td>
+<td>19387</td>
+<td>13206</td>
+<td>41.831810</td>
+<td>18.307436</td>
+<td>22339.040042</td>
+<td>168.870374</td>
+<td>11.459645</td>
+<td>13.611692</td>
+<td>191882.761582</td>
+<td>3</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>CDH</td>
+<td>88084</td>
+<td>76920</td>
+<td>140.685496</td>
+<td>54.735281</td>
+<td>65018.505578</td>
+<td>26011.366858</td>
+<td>40.810739</td>
+<td>46.357993</td>
+<td>559672.649090</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>DAL</td>
+<td>52627</td>
+<td>45230</td>
+<td>134.600049</td>
+<td>53.890802</td>
+<td>57832.731141</td>
+<td>35178.978760</td>
+<td>38.816079</td>
+<td>41.888466</td>
+<td>552438.204392</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>FLA</td>
+<td>57758</td>
+<td>30849</td>
+<td>101.959246</td>
+<td>36.758415</td>
+<td>39591.619961</td>
+<td>19430.429026</td>
+<td>24.740010</td>
+<td>28.107798</td>
+<td>354423.819966</td>
+<td>7</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">5</td>
+<td>GLA</td>
+<td>40743</td>
+<td>30842</td>
+<td>108.744030</td>
+<td>30.418445</td>
+<td>49108.905545</td>
+<td>32116.483102</td>
+<td>29.843228</td>
+<td>32.485101</td>
+<td>489485.111905</td>
+<td>7</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">6</td>
+<td>GZC</td>
+<td>79962</td>
+<td>84689</td>
+<td>159.908158</td>
+<td>48.163967</td>
+<td>60829.784838</td>
+<td>35702.505750</td>
+<td>40.969978</td>
+<td>55.463993</td>
+<td>521269.576366</td>
+<td>11</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">7</td>
+<td>HOU</td>
+<td>52327</td>
+<td>49775</td>
+<td>156.571056</td>
+<td>57.913864</td>
+<td>65358.076043</td>
+<td>40454.474520</td>
+<td>44.219426</td>
+<td>48.886158</td>
+<td>691999.044075</td>
+<td>11</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">8</td>
+<td>HZS</td>
+<td>96271</td>
+<td>84623</td>
+<td>165.066886</td>
+<td>51.045510</td>
+<td>69069.351907</td>
+<td>45746.309547</td>
+<td>44.340600</td>
+<td>48.711405</td>
+<td>593674.115148</td>
+<td>11</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">9</td>
+<td>LDN</td>
+<td>37085</td>
+<td>26460</td>
+<td>90.434697</td>
+<td>26.671602</td>
+<td>36982.082658</td>
+<td>26613.463389</td>
+<td>25.221463</td>
+<td>24.639127</td>
+<td>387766.475242</td>
+<td>6</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">10</td>
+<td>NYE</td>
+<td>30576</td>
+<td>26418</td>
+<td>99.575626</td>
+<td>24.138331</td>
+<td>38255.470540</td>
+<td>22063.733172</td>
+<td>25.311343</td>
+<td>29.345523</td>
+<td>503951.861376</td>
+<td>6</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">11</td>
+<td>PAR</td>
+<td>47618</td>
+<td>46164</td>
+<td>83.029907</td>
+<td>33.794198</td>
+<td>36440.938464</td>
+<td>32370.046951</td>
+<td>26.240437</td>
+<td>24.154430</td>
+<td>350082.354087</td>
+<td>6</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">12</td>
+<td>PHI</td>
+<td>22529</td>
+<td>22620</td>
+<td>78.232372</td>
+<td>27.090128</td>
+<td>31924.133892</td>
+<td>15973.523240</td>
+<td>19.257253</td>
+<td>23.235296</td>
+<td>385046.356130</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">13</td>
+<td>SEO</td>
+<td>69111</td>
+<td>44090</td>
+<td>159.211885</td>
+<td>42.290420</td>
+<td>63252.547481</td>
+<td>36999.399026</td>
+<td>38.336938</td>
+<td>44.785125</td>
+<td>520537.701585</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">14</td>
+<td>SFS</td>
+<td>51678</td>
+<td>39636</td>
+<td>156.843551</td>
+<td>40.146791</td>
+<td>65342.859290</td>
+<td>29724.106798</td>
+<td>39.777856</td>
+<td>52.126540</td>
+<td>692734.994042</td>
+<td>9</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">15</td>
+<td>SHD</td>
+<td>69402</td>
+<td>44080</td>
+<td>155.626680</td>
+<td>49.550898</td>
+<td>68986.768585</td>
+<td>30876.841884</td>
+<td>39.830569</td>
+<td>53.093820</td>
+<td>687468.766518</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">16</td>
+<td>TOR</td>
+<td>29461</td>
+<td>38475</td>
+<td>72.679144</td>
+<td>27.565865</td>
+<td>34029.883995</td>
+<td>17312.415607</td>
+<td>20.488759</td>
+<td>25.676763</td>
+<td>245498.218567</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">17</td>
+<td>VAL</td>
+<td>19483</td>
+<td>13215</td>
+<td>42.786018</td>
+<td>15.343999</td>
+<td>18309.481229</td>
+<td>7423.094689</td>
+<td>11.850342</td>
+<td>14.706421</td>
+<td>184116.543925</td>
+<td>3</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">18</td>
+<td>VAN</td>
+<td>74664</td>
+<td>69264</td>
+<td>154.987665</td>
+<td>40.865496</td>
+<td>61391.476594</td>
+<td>34382.552916</td>
+<td>38.925150</td>
+<td>46.432199</td>
+<td>681441.973097</td>
+<td>9</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">19</td>
+<td>WAS</td>
+<td>30441</td>
+<td>30788</td>
+<td>54.089034</td>
+<td>18.851711</td>
+<td>25049.833807</td>
+<td>8057.760008</td>
+<td>16.078539</td>
+<td>18.847698</td>
+<td>278076.144761</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="cell-52" class="cell" data-execution_count="28">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>df_group_team[[<span class="st">"team"</span>,<span class="st">"count"</span>]]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="28">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">team</th>
+<th data-quarto-table-cell-role="th">count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>ATL</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>BOS</td>
+<td>3</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>CDH</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>DAL</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>FLA</td>
+<td>7</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">5</td>
+<td>GLA</td>
+<td>7</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">6</td>
+<td>GZC</td>
+<td>11</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">7</td>
+<td>HOU</td>
+<td>11</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">8</td>
+<td>HZS</td>
+<td>11</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">9</td>
+<td>LDN</td>
+<td>6</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">10</td>
+<td>NYE</td>
+<td>6</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">11</td>
+<td>PAR</td>
+<td>6</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">12</td>
+<td>PHI</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">13</td>
+<td>SEO</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">14</td>
+<td>SFS</td>
+<td>9</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">15</td>
+<td>SHD</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">16</td>
+<td>TOR</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">17</td>
+<td>VAL</td>
+<td>3</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">18</td>
+<td>VAN</td>
+<td>9</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">19</td>
+<td>WAS</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="cell-53" class="cell" data-execution_count="29">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>df_group_team.plot.bar(x <span class="op">=</span> <span class="st">"team"</span>, y <span class="op">=</span> <span class="st">"count"</span> )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="2020-02-09-overwatch-pro-analysis_files/figure-html/cell-27-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="cell-54" class="cell" data-execution_count="30">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>q1 <span class="op">=</span> df_group_team[<span class="st">"count"</span>].quantile(<span class="fl">.25</span>)</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>q3 <span class="op">=</span> df_group_team[<span class="st">"count"</span>].quantile(<span class="fl">.75</span>)</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>iqr <span class="op">=</span> q3 <span class="op">-</span> q1</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>lower_bound <span class="op">=</span> q1 <span class="op">-</span>(<span class="fl">1.5</span> <span class="op">*</span> iqr) </span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>upper_bound <span class="op">=</span> q3 <span class="op">+</span>(<span class="fl">1.5</span> <span class="op">*</span> iqr)</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>({<span class="st">"Quartile 1"</span>: q1})</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>({<span class="st">"Quartile 3"</span>:q3})</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>({<span class="st">"IQR"</span>: iqr })</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>({<span class="st">"Lower Bound"</span> : lower_bound})</span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>({<span class="st">"Upper Bound"</span> : upper_bound})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{'Quartile 1': 5.75}
+{'Quartile 3': 10.0}
+{'IQR': 4.25}
+{'Lower Bound': -0.625}
+{'Upper Bound': 16.375}</code></pre>
+</div>
+</div>
+<p>Although our teams don’t have any outliers by the IQR, we probably should exclude the the Boston Uprising, LA Valliant, and Washington Justice as they don’t have enough for a team</p>
+<section id="how-many-eliminations-do-each-team-get" class="level2">
+<h2 class="anchored" data-anchor-id="how-many-eliminations-do-each-team-get">How Many Eliminations Do Each Team Get?</h2>
+<p>Let’s find out which teams had the most eliminations per 10 minutes</p>
+<div id="cell-57" class="cell" data-execution_count="31">
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>df_group_team[<span class="st">"Overall Average Eliminations Per 10m"</span>] <span class="op">=</span> df_group_team[<span class="st">"eliminations_avg_per_10m"</span>]<span class="op">/</span>df_group_team[<span class="st">"count"</span>]</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>df_team_largest_elim <span class="op">=</span> df_group_team[[<span class="st">"team"</span>,<span class="st">"Overall Average Eliminations Per 10m"</span>]]</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>df_team_largest_elim.nlargest(<span class="dv">20</span>,<span class="st">"Overall Average Eliminations Per 10m"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="31">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">team</th>
+<th data-quarto-table-cell-role="th">Overall Average Eliminations Per 10m</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">14</td>
+<td>SFS</td>
+<td>17.427061</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">18</td>
+<td>VAN</td>
+<td>17.220852</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">10</td>
+<td>NYE</td>
+<td>16.595938</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">13</td>
+<td>SEO</td>
+<td>15.921189</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>ATL</td>
+<td>15.779398</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">12</td>
+<td>PHI</td>
+<td>15.646474</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">15</td>
+<td>SHD</td>
+<td>15.562668</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">5</td>
+<td>GLA</td>
+<td>15.534861</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">9</td>
+<td>LDN</td>
+<td>15.072450</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">8</td>
+<td>HZS</td>
+<td>15.006081</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>FLA</td>
+<td>14.565607</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">6</td>
+<td>GZC</td>
+<td>14.537105</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">16</td>
+<td>TOR</td>
+<td>14.535829</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">17</td>
+<td>VAL</td>
+<td>14.262006</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">7</td>
+<td>HOU</td>
+<td>14.233732</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">2</td>
+<td>CDH</td>
+<td>14.068550</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">1</td>
+<td>BOS</td>
+<td>13.943937</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">11</td>
+<td>PAR</td>
+<td>13.838318</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">19</td>
+<td>WAS</td>
+<td>13.522258</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>DAL</td>
+<td>13.460005</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="cell-58" class="cell" data-execution_count="32">
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>df_group_team.plot.bar(x <span class="op">=</span> <span class="st">"team"</span>, y <span class="op">=</span> <span class="st">"Overall Average Eliminations Per 10m"</span> )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="2020-02-09-overwatch-pro-analysis_files/figure-html/cell-30-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This looks pretty messy, let’s calculate for any outliers</p>
+<div id="cell-60" class="cell" data-execution_count="33">
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>q1 <span class="op">=</span> df_group_team[<span class="st">"Overall Average Eliminations Per 10m"</span>].quantile(<span class="fl">.25</span>)</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>q3 <span class="op">=</span> df_group_team[<span class="st">"Overall Average Eliminations Per 10m"</span>].quantile(<span class="fl">.75</span>)</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>iqr <span class="op">=</span> q3 <span class="op">-</span> q1</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>lower_bound <span class="op">=</span> q1 <span class="op">-</span>(<span class="fl">1.5</span> <span class="op">*</span> iqr) </span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>upper_bound <span class="op">=</span> q3 <span class="op">+</span>(<span class="fl">1.5</span> <span class="op">*</span> iqr)</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>({<span class="st">"Quartile 1"</span>: q1})</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>({<span class="st">"Quartile 3"</span>:q3})</span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>({<span class="st">"IQR"</span>: iqr })</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>({<span class="st">"Lower Bound"</span> : lower_bound})</span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>({<span class="st">"Upper Bound"</span> : upper_bound})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{'Quartile 1': 14.192436660434511}
+{'Quartile 3': 15.679705219204635}
+{'IQR': 1.4872685587701238}
+{'Lower Bound': 11.961533822279325}
+{'Upper Bound': 17.91060805735982}</code></pre>
+</div>
+</div>
+</section>
+<section id="how-much-damage-is-dealt-by-each-team" class="level2">
+<h2 class="anchored" data-anchor-id="how-much-damage-is-dealt-by-each-team">How Much Damage is Dealt by Each Team?</h2>
+<div id="cell-62" class="cell" data-execution_count="34">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>df_group_team[<span class="st">"Overall Average Damage Dealt per 10m"</span>] <span class="op">=</span> df_group_team[<span class="st">"hero_damage_avg_per_10m"</span>]<span class="op">/</span>df_group_team[<span class="st">"count"</span>]</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>df_team_largest_damage <span class="op">=</span> df_group_team[[<span class="st">"team"</span>,<span class="st">"Overall Average Damage Dealt per 10m"</span>]]</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>df_team_largest_damage.nlargest(<span class="dv">20</span>,<span class="st">"Overall Average Damage Dealt per 10m"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="34">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">team</th>
+<th data-quarto-table-cell-role="th">Overall Average Damage Dealt per 10m</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">1</td>
+<td>BOS</td>
+<td>7446.346681</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">14</td>
+<td>SFS</td>
+<td>7260.317699</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">5</td>
+<td>GLA</td>
+<td>7015.557935</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">15</td>
+<td>SHD</td>
+<td>6898.676859</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">18</td>
+<td>VAN</td>
+<td>6821.275177</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">16</td>
+<td>TOR</td>
+<td>6805.976799</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>CDH</td>
+<td>6501.850558</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">12</td>
+<td>PHI</td>
+<td>6384.826778</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">10</td>
+<td>NYE</td>
+<td>6375.911757</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">13</td>
+<td>SEO</td>
+<td>6325.254748</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">8</td>
+<td>HZS</td>
+<td>6279.031992</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">19</td>
+<td>WAS</td>
+<td>6262.458452</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>ATL</td>
+<td>6222.953476</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">9</td>
+<td>LDN</td>
+<td>6163.680443</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">17</td>
+<td>VAL</td>
+<td>6103.160410</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">11</td>
+<td>PAR</td>
+<td>6073.489744</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">7</td>
+<td>HOU</td>
+<td>5941.643277</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>DAL</td>
+<td>5783.273114</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>FLA</td>
+<td>5655.945709</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">6</td>
+<td>GZC</td>
+<td>5529.980440</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="cell-63" class="cell" data-execution_count="35">
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>df_team_largest_damage.plot.bar(x <span class="op">=</span> <span class="st">"team"</span>, y <span class="op">=</span> <span class="st">"Overall Average Damage Dealt per 10m"</span> )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="2020-02-09-overwatch-pro-analysis_files/figure-html/cell-33-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Surpisingly enough, Boston seems to have a higher damage dealt dispite having less players. This is odd because it wasn’t an issue for eliminations.</p>
+</section>
+<section id="how-many-deaths-is-recieved-by-each-team" class="level2">
+<h2 class="anchored" data-anchor-id="how-many-deaths-is-recieved-by-each-team">How Many Deaths is Recieved By Each Team?</h2>
+<div id="cell-66" class="cell" data-execution_count="36">
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>df_group_team[<span class="st">"Overall Average Deaths Per 10m"</span>] <span class="op">=</span> df_group_team[<span class="st">"deaths_avg_per_10m"</span>]<span class="op">/</span>df_group_team[<span class="st">"count"</span>]</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>df_team_smallest_death <span class="op">=</span> df_group_team[[<span class="st">"team"</span>,<span class="st">"Overall Average Deaths Per 10m"</span>]]</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>df_team_smallest_death.nsmallest(<span class="dv">20</span>,<span class="st">"Overall Average Deaths Per 10m"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="36">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">team</th>
+<th data-quarto-table-cell-role="th">Overall Average Deaths Per 10m</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">10</td>
+<td>NYE</td>
+<td>4.023055</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">13</td>
+<td>SEO</td>
+<td>4.229042</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">5</td>
+<td>GLA</td>
+<td>4.345492</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">6</td>
+<td>GZC</td>
+<td>4.378542</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">9</td>
+<td>LDN</td>
+<td>4.445267</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">14</td>
+<td>SFS</td>
+<td>4.460755</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">18</td>
+<td>VAN</td>
+<td>4.540611</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">8</td>
+<td>HZS</td>
+<td>4.640501</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">19</td>
+<td>WAS</td>
+<td>4.712928</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">15</td>
+<td>SHD</td>
+<td>4.955090</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>ATL</td>
+<td>5.049067</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">17</td>
+<td>VAL</td>
+<td>5.114666</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>FLA</td>
+<td>5.251202</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">7</td>
+<td>HOU</td>
+<td>5.264897</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">3</td>
+<td>DAL</td>
+<td>5.389080</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">12</td>
+<td>PHI</td>
+<td>5.418026</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>CDH</td>
+<td>5.473528</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">16</td>
+<td>TOR</td>
+<td>5.513173</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">11</td>
+<td>PAR</td>
+<td>5.632366</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>BOS</td>
+<td>6.102479</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="cell-67" class="cell" data-execution_count="38">
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>df_team_smallest_death.plot.bar(x <span class="op">=</span> <span class="st">"team"</span>, y <span class="op">=</span> <span class="st">"Overall Average Deaths Per 10m"</span> )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="2020-02-09-overwatch-pro-analysis_files/figure-html/cell-35-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="linear-regression" class="level1">
+<h1>Linear Regression?</h1>
+<div id="cell-69" class="cell" data-execution_count="120">
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="cell-70" class="cell" data-execution_count="127">
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> LinearRegression()</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> model.fit(df[[<span class="st">"eliminations_avg_per_10m"</span>,<span class="st">"deaths_avg_per_10m"</span>,<span class="st">"hero_damage_avg_per_10m"</span>, <span class="st">"healing_avg_per_10m"</span>]], df[<span class="st">"ultimates_earned_avg_per_10m"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/progressEdd\.github\.io\/blog\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
