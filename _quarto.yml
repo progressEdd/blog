@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "What's The Progress"
+  navbar:
+    right:
+      - about.qmd
+      - experiences.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+
+
+

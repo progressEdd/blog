@@ -1,0 +1,28 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/progressEdd
+    - icon: youtube
+      text: YouTube
+      href: https://www.youtube.com/@progressEdd
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/progressEdd
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/progressedd/
+---
+Hello there, I am Edward Tang, I have passion for technology and Data Science. My passion for the field wasn’t fully realized until colleagues identified Data Science practices in my work as an [undergraduate research assistant](http://danceneuroscience.kch.illinois.edu/people). As a research assistant, I processed motion capture recordings, motion capture model development, and data analysis. 
+    
+In my spare time, I help first time PC builders by tailoring parts for their workloads and troubleshoot computer issues on community chat servers and tech forums.
+
+# About This Blog
+The primary purpose of this blog is to document my experiences working on Data Science and Technology projects. I had previously shared links to notebooks on Github, but I encountered limitations that hindered some of my visualizations and explanations.
+
+# Contacting Me
+I can be reached by any of the social media links below. 
