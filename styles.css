@@ -1,1 +1,9 @@
 /* css styles */
+/* Force code blocks to use a dark background */
+code,
+pre,
+.highlight,
+.highlight pre {
+  background-color: #000000 !important;
+  color: #ffffff !important; /* or your preferred text color */
+}
