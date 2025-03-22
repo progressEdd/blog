@@ -3,20 +3,18 @@ project:
 
 website:
   title: "What's The Progress"
+  description: "a blog to show projects and progress"
+  open-graph: true
   navbar:
     right:
       - about.qmd
       - experiences.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/progressEdd
+        
 format:
   html:
     theme:
       - cosmo
       - brand
     css: styles.css
-
-
-

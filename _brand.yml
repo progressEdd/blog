@@ -1,0 +1,23 @@
+color:
+  palette:
+    dark-grey: "#3a383a"
+    blue: "#dee7f4"
+  background: blue
+  foreground: dark-grey
+  primary: black
+
+logo: 
+  small: /favicons/favicon.ico
+  medium: /favicons/android-chrome-192x192.png
+  large: /favicons/android-chrome-256x256.png
+
+typography:
+  fonts:
+    - family: Anonymous Pro
+      source: bunny
+    - family: Encode Sans
+      source: bunny
+    - family: Source Code Pro
+      source: bunny
+  base: Encode Sans
+  headings: Anonymous Pro
